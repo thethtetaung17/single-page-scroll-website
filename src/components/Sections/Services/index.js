@@ -12,11 +12,12 @@ import Icon1 from '../../../images/svg-1.svg';
 import Icon2 from '../../../images/svg-2.svg';
 import Icon3 from '../../../images/svg-3.svg';
 const Services = () => {
+    const siteKey = '6LcDd5UbAAAAAEF9EYd9vX9QtjQ003CjEwoBRTOB';
     return (
         <>
             <ServicesContainer id='services'>
                 <ServicesH1>Our Services</ServicesH1>
-                <ServicesWrapper>
+                {/* <ServicesWrapper>
                     <ServicesCard>
                         <ServicesIcon src={Icon1} />
                         <ServicesH2>Reduce Expenses</ServicesH2>
@@ -32,7 +33,13 @@ const Services = () => {
                         <ServicesH2>Premium Benefits</ServicesH2>
                         <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP>
                     </ServicesCard>
-                </ServicesWrapper>
+                </ServicesWrapper> */}
+                <form action="/nodeform">
+                    <input type="text"/>
+                    <input type="text"/>
+                    <div class="g-recaptcha" data-sitekey={siteKey}></div>
+                    <input type="submit" />
+                </form>
             </ServicesContainer>
         </>
     )
