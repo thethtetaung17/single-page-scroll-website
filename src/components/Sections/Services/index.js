@@ -12,7 +12,7 @@ import Icon1 from '../../../images/svg-1.svg';
 import Icon2 from '../../../images/svg-2.svg';
 import Icon3 from '../../../images/svg-3.svg';
 const Services = () => {
-    const siteKey = '6LcDd5UbAAAAAEF9EYd9vX9QtjQ003CjEwoBRTOB';
+    const siteKey = '6LeGtpUbAAAAABg_QardUJiEBzFT5a86-72BMkAh';
     return (
         <>
             <ServicesContainer id='services'>
